@@ -1,0 +1,27 @@
+{
+  "name": "bunq-orbit-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.1037.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.1037.0",
+    "@aws-sdk/client-polly": "^3.1037.0",
+    "@aws-sdk/client-s3": "^3.1037.0",
+    "@aws-sdk/client-transcribe": "^3.1037.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.15.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
+}
